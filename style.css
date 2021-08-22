@@ -1,0 +1,152 @@
+.nav{
+  padding: 5px 20px;
+  box-sizing: border-box;
+  background-color: rgb(48, 48, 48);
+  width: auto;
+  height: 50px;
+}
+
+.nav_logo{
+  display: flex;
+  padding: 1%;
+}
+
+.menu{
+  display: flex;
+  background:rgb(48, 48, 48);
+  list-style: none;
+  width: 100%;
+  padding: 1%;
+  gap: 1em;
+  
+}
+button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+
+}
+
+a.btn.btn-primary {
+  color: black;
+  background-color: lavender;
+  border-color:lavender;
+}
+
+.card-title{
+  color: darkslateblue;
+}
+
+a{
+  text-align: right;
+  
+
+}
+
+
+div.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+li a{ 
+  
+
+  color: white;
+  margin-left: auto;
+  width: 1500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#home{
+  background-color: whitesmoke;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px;
+  position: center;
+}
+
+.home_image{
+  width: auto; height: auto;
+  float: center;
+}
+
+.home_contact {
+  color: white;
+  background: black;
+}
+
+li a:hover {
+  font-weight: bolder;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+#footer{
+  width: 50%;
+  display: flex;
+  margin-top: 200px;
+  margin-left: auto;
+}
+footer{
+  width: 100%;
+  display: flex;
+  margin-top: 200px;
+}
+header{
+	height: 100%;
+}
+
+img {
+  width: 30px;
+}
+
+.footer_menu{
+  display: flex;
+  background:rgb(48, 48, 48);
+  color: white;
+  list-style: none;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1%;
+  gap: 1em;
+  text-align: right;
+}
+
+div.text-container {
+  margin: 0 60px;
+  max-width: 660px;
+}
+div.container {
+  flex-direction: row;
+  width: 100%;
+}
+div.imag {
+  height: 200px;
+  min-width: 300px;
+}
+div.imag {
+  height: 300px;
+  width: 100%;
+  background: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+div.text-container {
+  margin: 60px 45px 55px;
+  text-align: left;
+}
